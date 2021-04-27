@@ -1,0 +1,35 @@
+// .bg-nav{
+//     background-color: #fff;
+// }
+// .bg-nav ul{
+//     display: flex;
+//     justify-content: space-between;
+//     list-style-type: none;
+// }
+// .bg-nav a{
+//     color:green;
+//     text-decoration: underline double blue;
+// }
+// .bg-nav a:hover{
+//     color: black;
+// }
+.bg-nav{
+    background-color: #fff;
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+
+        li{
+            a{
+                color: green;
+
+                &:hover{
+                    color: purple;
+                }
+            }
+            
+        }
+    }
+}
